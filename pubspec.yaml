@@ -29,6 +29,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
   flutter_bloc: ^8.0.0
   bloc: ^8.0.0
   equatable: ^2.0.0
@@ -55,11 +57,46 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
-
+  generate: true
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  fonts:
+    - family: RobotoMedium
+      fonts:
+        - asset: fonts/roboto_medium.ttf
+    - family: RobotoBold
+      fonts:
+        - asset: fonts/roboto_bold.ttf
+    - family: RobotoLight
+      fonts:
+        - asset: fonts/roboto_light.ttf
+    - family: RobotoRegular
+      fonts:
+        - asset: fonts/roboto_regular.ttf
+    - family: cairoBlack
+      fonts:
+        - asset: fonts/cairo_black.ttf
+    - family: cairoBold
+      fonts:
+        - asset: fonts/cairo_bold.ttf
+    - family: cairoExtraLight
+      fonts:
+        - asset: fonts/cairo_extra_light.ttf
+    - family: cairoLight
+      fonts:
+        - asset: fonts/cairo_light.ttf
+    - family: cairoRegular
+      fonts:
+        - asset: fonts/cairo_regular.ttf
+    - family: cairoSemiBold
+      fonts:
+        - asset: fonts/cairo_semi_bold.ttf
+    - family: gothamBlack
+      fonts:
+        - asset: fonts/gotham_black.ttf
 
   # To add assets to your application, add an assets section, like this:
   # assets:
@@ -91,3 +128,5 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+flutter_intl:
+  enabled: true

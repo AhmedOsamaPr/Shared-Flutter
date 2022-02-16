@@ -1,0 +1,14 @@
+{
+
+ "wallet_title":"مكافأت",
+ "history_title":"السجل",
+ "spend_points_title":"اصرف نقاطك",
+ "earn_points_title":"اكسب نقاط",
+  "earned_points":"جمعت",
+  "redeemed_points":"تم الاستبدال",
+  "pending_points":"قيد الانتظار",
+  "declined_points":"مرفوض",
+  "wallet_tooltip":"المحفظة",
+  "more_tooltip":"المزيد",
+  "browser_tooltip":"المتصفح"
+}

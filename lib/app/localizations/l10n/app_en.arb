@@ -1,0 +1,14 @@
+{
+ "wallet_title":"Rewards",
+ "history_title":"History",
+ "spend_points_title":"Spend Points",
+ "earn_points_title":"Earn Points",
+ "earned_points":"Earned",
+ "redeemed_points":"Redeemed",
+ "pending_points":"Pending",
+ "declined_points":"Declined",
+ "wallet_tooltip":"Wallet",
+ "more_tooltip":"More",
+ "browser_tooltip":"Browser"
+
+}
