@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:shared_flutter/core/styles/text_style_weight_factory.dart';
 import 'package:shared_flutter/core/ui_kit/wasla_colors.dart';
-import 'package:shared_flutter/core/ui_kit/fonts.dart';
-
 import 'wasla_colors.dart';
 
 Widget pointsWidget(){
-  return  Container(
+  return Container(
     alignment: Alignment.topCenter,
     child: Row(mainAxisSize: MainAxisSize.min, children: [
       Container(
@@ -31,7 +30,7 @@ Widget pointsWidget(){
               ),
               Container(
                 margin: const EdgeInsets.only(left: 2),
-                child: const Text("50,000", style: TextStyle(color: Color(0xFFF0BD23), fontFamily: WaslaFonts.robotoMedium),),
+                child: Text("50,000", style: WaslaTextStyle.medium(Size.TEXT_SM).copyWith(color: const Color(0xFFF0BD23)),),
               )
             ])
           ])),
