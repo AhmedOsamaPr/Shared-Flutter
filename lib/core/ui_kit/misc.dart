@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:shared_flutter/core/misc/ui_kit/colors.dart';
-import 'package:shared_flutter/core/misc/ui_kit/fonts.dart';
+import 'package:shared_flutter/core/ui_kit/wasla_colors.dart';
+import 'package:shared_flutter/core/ui_kit/fonts.dart';
+
+import 'wasla_colors.dart';
 
 Widget pointsWidget(){
   return  Container(
