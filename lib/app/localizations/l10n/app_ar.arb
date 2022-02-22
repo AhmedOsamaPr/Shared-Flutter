@@ -4,11 +4,16 @@
  "history_title":"السجل",
  "spend_points_title":"اصرف نقاطك",
  "earn_points_title":"اكسب نقاط",
-  "earned_points":"جمعت",
-  "redeemed_points":"تم الاستبدال",
-  "pending_points":"قيد الانتظار",
-  "declined_points":"مرفوض",
-  "wallet_tooltip":"المحفظة",
-  "more_tooltip":"المزيد",
-  "browser_tooltip":"المتصفح"
+ "earned_points":"جمعت",
+ "redeemed_points":"تم الاستبدال",
+ "pending_points":"قيد الانتظار",
+ "declined_points":"مرفوض",
+ "wallet_tooltip":"المحفظة",
+ "more_tooltip":"المزيد",
+ "browser_tooltip":"المتصفح",
+ "retry": "إعادة المحاولة",
+ "missing_otp_message": "يجب أن تؤكد رقم هاتفك أولا",
+ "missing_interests_message": "تحتاج لإضافة الموضوعات التي تهمك أولا",
+ "no_internet_message": "فقد الأتصال بالأنترنت.",
+ "general_error_message": "الرجاء المحاولة مرة أخرى. إذا استمرت المشكلة، يرجى الاتصال بدعم العملاء"
 }

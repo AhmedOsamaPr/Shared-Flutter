@@ -1,20 +1,21 @@
 import 'package:flutter/material.dart';
 
+// TODO Remove comments, and add AppLocalization import
 extension ContextExtension on BuildContext {
-  void showOtpExceptionSnackbar(RetryCallback retryCallback) {
-    showSnackbar(this, retryCallback, "You need to verify your phone number first");
+  void showMissingOtpSnackbar(RetryCallback retryCallback) {
+    // showSnackbar(this, retryCallback, AppLocalizations.of(this)!.missing_otp_message);
   }
 
-  void showInterestsExceptionSnackbar(RetryCallback retryCallback) {
-    showSnackbar(this, retryCallback, "You need to add topics you love first");
+  void showMissingInterestsSnackbar(RetryCallback retryCallback) {
+    // showSnackbar(this, retryCallback, AppLocalizations.of(this)!.missing_interests_message);
   }
 
-  void showInternetExceptionSnackbar(RetryCallback retryCallback) {
-    showSnackbar(this, retryCallback, "Internet connection lost");
+  void showNoInternetSnackbar(RetryCallback retryCallback) {
+    // showSnackbar(this, retryCallback, AppLocalizations.of(this)!.no_internet_message);
   }
 
-  void showGeneralExceptionSnackbar(RetryCallback retryCallback) {
-    showSnackbar(this, retryCallback, "Please try again if the problem continue, contact customer support");
+  void showGeneralErrorSnackbar(RetryCallback retryCallback) {
+    // showSnackbar(this, retryCallback, AppLocalizations.of(this)!.general_error_message);
   }
 }
 
